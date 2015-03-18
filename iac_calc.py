@@ -1,14 +1,15 @@
 # iac_calc.py
 
 # The Internet Audio Cyclotron Data Destruction Calculator
-# version 0.5 (writes results to file, then reads file and prints to screen)
+# version b1.0 (writes results to file, then reads file and prints to screen)
 
 # Calculates the data destruction wrought by the Audio Cyclotron
-# This version is for configurations with multiple encoders of differing bitrates
+# This version is for both single encoders, and configurations with multiple encoders of differing bitrates
 # Requires Python3
 
 # by jmg*AT*phasechange*DOT*info
-# April 29th 2014
+# last version: April 29th 2014
+# this verison: March 18th 2015
 
 # Import Decimal type to enable greater precision
 from decimal import Decimal
@@ -16,13 +17,13 @@ from decimal import Decimal
 # Present title
 def title ():
 	print ()
-	print ("-------------------------------------------------------------------------")
-	print ("-        Internet Audio Cyclotron | Data Destruction Calculator         -")
-	print ("-------------------------------------------------------------------------")
-	print ("-                          v0.5 | April 2014                            -")
-	print ("-------------------------------------------------------------------------")
-	print ("-     For single encoder or multiple encoders of different bitrates     -")
-	print ("-------------------------------------------------------------------------")
+	print ("----------------------------------------------------------------------")
+	print ("-       Internet Audio Cyclotron | Data Destruction Calculator       -")
+	print ("----------------------------------------------------------------------")
+	print ("-                         v b1.0 | March 2015                        -")
+	print ("----------------------------------------------------------------------")
+	print ("-                   For single or multiple encoders                  -")
+	print ("----------------------------------------------------------------------")
 	print ()
 
 # Capture user input
@@ -117,9 +118,9 @@ def iacoutput (iactitle, iacartist, iacdate, durationmins, ipbitrate, encloop, e
 	iac = open ('iac.txt', 'a')
 
 	print ("\n", file = iac)
-	print ("---------------------------------------------------------------------------------", file = iac)
-	print ("-            Internet Audio Cyclotron | Data Destruction Calculator             -", file = iac)
-	print ("---------------------------------------------------------------------------------", file = iac)
+	print ("----------------------------------------------------------------------", file = iac)
+	print ("-       Internet Audio Cyclotron | Data Destruction Calculator       -", file = iac)
+	print ("----------------------------------------------------------------------", file = iac)
 	print ("\n", file = iac)
 	print ("THE PIECE: ", file = iac)
 	print (iactitle, "by", iacartist, "was performed on", iacdate, file = iac)
@@ -146,9 +147,9 @@ def iacoutput (iactitle, iacartist, iacdate, durationmins, ipbitrate, encloop, e
 	print ("As a percentage, this equates to", dataremainspc, "%", file = iac)
 	print ("Around", dataremainspcr, "percent of the original sound is now noise and artefacts", file = iac)
 	print ("\n", file = iac)
-	print ("---------------------------------------------------------------------------------", file = iac)
-	print ("-                     (c) 2014 | jmg*AT*phasechange*DOT*info                    -", file = iac)
-	print ("---------------------------------------------------------------------------------", file = iac)
+	print ("----------------------------------------------------------------------", file = iac)
+	print ("-                (c) 2015 | jmg*AT*phasechange*DOT*info              -", file = iac)
+	print ("----------------------------------------------------------------------", file = iac)
 	print ("\n", file = iac)
 	iac.close ()
 
