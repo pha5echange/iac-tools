@@ -9,6 +9,8 @@ Requires Python3
 
 N.B. THIS IS A BETA RELEASE - USE AT YOUR OWN RISK
 
+Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
+
 1) To run >> 'python3 iac_calc.py' in a terminal
 
 2) This version DOES NOT catch errors with input data. Be careful with your input or the program will stop. 
