@@ -1,13 +1,16 @@
-# iac-tools
+IAC Tools
 
-Python tools to aid with documentation of pieces made with the IAC (Internet Audio Cyclotron)
+Python tools to aid with the creation and documentation of IAC (Internet Audio Cyclotron) pieces
 www.phasechange.info/iac
 
-version beta 01
+Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
+IAC_CALC
+
+Version beta 01
 Requires Python3 
 
-N.B. THIS IS A BETA RELEASE - USE AT YOUR OWN RISK
+Calculates metrics (such as data destruction and signal distance) for a piece
 
 Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -18,3 +21,9 @@ Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 3) Writes 'iac.txt' to the folder that houses the script ('iac.txt' is currently set to 'append'. Move and rename if you want multiple files of results.)
 
 
+AUTO_IAC
+
+Version alpha 01
+Requires the PyDub library and FFMPEG
+
+The beginnings of an automated, local simulation of the IAC process (currently just a Python-based MP3 encoder)

@@ -1,15 +1,15 @@
 # iac_calc.py
 
 # The Internet Audio Cyclotron Data Destruction Calculator
-# version b1.0 (writes results to file, then reads file and prints to screen)
+# version b1.0
+# March 18th 2015
 
 # Calculates the data destruction wrought by the Audio Cyclotron
 # This version is for both single encoders, and configurations with multiple encoders of differing bitrates
 # Requires Python3
 
 # by jmg*AT*phasechange*DOT*info
-# last version: April 29th 2014
-# this verison: March 18th 2015
+# Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # Import Decimal type to enable greater precision
 from decimal import Decimal
