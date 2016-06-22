@@ -7,9 +7,9 @@ Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 IAC_CALC
 
-Version beta 01
-Requires Python3 
+Requires Python3
 
+Version beta 01 
 Calculates metrics (such as data destruction and signal distance) for a piece
 
 Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
@@ -23,7 +23,13 @@ Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 AUTO_IAC
 
-Version alpha 01
 Requires the PyDub library and FFMPEG
 
-The beginnings of an automated, local simulation of the IAC process (currently just a Python-based MP3 encoder)
+Seeks files in an 'audio' subfolder.
+
+Version alpha 01
+The beginnings of an automated, local simulation of the IAC process. 
+This version is just a Python-based MP3 batch-encoder.
+
+Version alpha 02
+Re-encodes existing MP3s.
