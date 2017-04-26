@@ -23,13 +23,14 @@ Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 AUTO_IAC
 
+Runs under Python 2
+
+Version alpha 03
+Requests MP3 bitrate and number of loops required. Outputs 1 MP3 file per loop.
+
 Requires the PyDub library and FFMPEG
 
-Seeks files in an 'audio' subfolder.
+Seeks `source.wav' file in an 'audio' subfolder.
 
-Version alpha 01
-The beginnings of an automated, local simulation of the IAC process. 
-This version is just a Python-based MP3 batch-encoder.
-
-Version alpha 02
-Re-encodes existing MP3s.
+Version alpha 03
+Requests MP3 bitrate and number of loops required. Outputs 1 MP3 file per loop.
