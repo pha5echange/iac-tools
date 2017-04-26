@@ -6,19 +6,26 @@
 
 # Looping MP3 encoder
 
-# Requires an 'audio' subfolder where files are sought for encoding
+# Requires an 'audio' subfolder with a `source.wav' file for encoding
 
 # by jmg*AT*phasechange*DOT*info
 # Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 import os
-import glob
 from pydub import AudioSegment
 
 versionNumber = 'a03'
 
 audio_dir = 'audio/'  # dir where the files are located
 extension_list = ('*.wav')
+
+print ()
+print ("---------------------------------------------------------------------------------")
+print ("-                   Internet Audio Cyclotron | Auto Cyclotron                   -")
+print ("---------------------------------------------------------------------------------")
+print ("-                              v0.3 | April 2017                                -")
+print ("---------------------------------------------------------------------------------")
+print ()
 
 # get user input
 encBitRateInt = int(input("Enter the desired encoder bitrate - options are 8, 16, 24, 32, 40, 48, 64, 80, 96, 112, 128, 160, 192, 224, 256 or 320: "))
